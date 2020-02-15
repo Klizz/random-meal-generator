@@ -1,0 +1,13 @@
+h2 {
+    font-family: 'Pacifico', cursive;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button-container {
+    height: 200px;
+    text-align: center;
+    padding-top: 100px;
+}
