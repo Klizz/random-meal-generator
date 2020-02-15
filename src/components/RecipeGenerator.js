@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import RecipeCard from './RecipeCard';
+import RecipeCard from './GetRecipeButton';
 import recipes from "./Recipe";
 
 class RecipeGenerator extends Component {
