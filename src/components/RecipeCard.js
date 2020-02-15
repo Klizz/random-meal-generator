@@ -10,7 +10,7 @@ class RecipeCard extends React.Component {
       <div className="row">
         <div className="col s6"><img src={this.props.mealNameThumb} alt="Not found" width="100%"></img></div>
         <div className="col s6">
-        <h2>{this.props.mealName}</h2>
+        <h2 className="deep-orange-text">{this.props.mealName}</h2>
         <p><b>Category:</b> {this.props.mealCategory}</p>
         <ul><b>Ingredients:</b><br/>
         <li>{this.props.measure1} {this.props.ingredient1}</li>
@@ -36,6 +36,12 @@ class RecipeCard extends React.Component {
         </ul>
         <p><b>Instructions:</b><br/> {this.props.instructions}</p>
         </div>
+        </div>
+
+        <div className="col s12 center-align">
+        <iframe title="Video recipe" width="840" height="630"
+        src={this.props.mealVideo}>
+        </iframe>
         </div>
         </div>
     );
